@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "daws78s-remote-state"
+    bucket = "s3bucket-project-devops"
     key    = "expense-dev-app-alb"
     region = "us-east-1"
     use_lockfile = true
