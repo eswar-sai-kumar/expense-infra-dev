@@ -25,7 +25,7 @@ resource "null_resource" "backend" {
     connection {
         type     = "ssh"
         user     = "ec2-user"
-        password = "DevOps321"
+        private_key = file("C:/repos/key-pair.pem")
         host     = module.backend.private_ip
     }
 
