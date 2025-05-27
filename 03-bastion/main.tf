@@ -8,6 +8,7 @@ module "bastion" {
   # convert StringList to list and get first element
   subnet_id = local.public_subnet_id
   ami = data.aws_ami.ami_info.id
+  user_data = file("bastion.sh")
   tags = merge(
     var.common_tags,
     {
