@@ -31,5 +31,11 @@ echo "<h1>This is from nginx-2</h1>" > /usr/share/nginx/html/index.html
 - We can see our image in AMI (owned by me)
 
 ### Launch template
-- EC2 → launch template → 
+- EC2 → launch template → name (nginx) → My AMIs → owned by me → AMI (created previously) → t2.micro → key pair (don't include) → sg (allow-everything) → adv details shut down behaviour (Terminate) → create
+
+### Create auto scaling
+- Auto Scaling → create → name → launch template(select template which created previously) → VPC (default) → AZ(us-east-1a) → next > attach to an existing load balancer → select target groups → health check grace period (10 sec) → next → desired capacity (2) → min desired capacity (2) → max desired capacity (10) → target tracking scaling policy → name → metric type (avd cpu utilization) → target value (75) → Instance warm up (60) → next → next → create
+
+
+
 
