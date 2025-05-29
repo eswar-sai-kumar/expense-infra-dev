@@ -15,6 +15,6 @@ ssh -i c:/repos/key-pair.pub openvpnas@<vpn_public_ip>
 
 ### OpenVPN server configuration
 
-Open browser → search open vpn client → download openvpn connect → open openvpn in your laptop after downloaded → URL: client UI url → next → accept → Username: openvpn → Password: Abcd@1234 → Import → On VPN
+- Open browser → search open vpn client → download openvpn connect → open openvpn in your laptop after downloaded → URL: client UI url → next → accept → Username: openvpn → Password: Abcd@1234 → Import → On VPN
 
-Open browser → Search "MyIPaddress" website → we can see our IPV4 as "VPN public IP" and "location US Virginia"
+- Open browser → Search "MyIPaddress" website → we can see our IPV4 as "VPN public IP" and "location US Virginia"
