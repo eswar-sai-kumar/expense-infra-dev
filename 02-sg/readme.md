@@ -1,3 +1,3 @@
 # SG Rules
 
-![alt text](sg-rules.svg)
+![alt text](image.png)
