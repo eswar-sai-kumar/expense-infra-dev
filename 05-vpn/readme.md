@@ -3,7 +3,7 @@
 ### After creating vpn instance, login in to server 
 
 ```
-ssh -i c:/repos/key-pair.pub openvpnas@<vpn_public_ip>
+ssh -i c:/repos/key-pair.pem openvpnas@<vpn_public_ip>
 ```
 - aggrement: yes
 - password: Abcd@1234 (give any password)
