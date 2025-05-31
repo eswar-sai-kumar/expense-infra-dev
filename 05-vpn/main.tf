@@ -1,7 +1,6 @@
 resource "aws_key_pair" "vpn" {
   key_name   = "vpn"
   public_key = file("c:/repos/key-pair.pub")
-  # ~ means windows home directory
 }
 
 module "vpn" {

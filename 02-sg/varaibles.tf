@@ -18,7 +18,7 @@ variable "db_sg_description" {
   default = "SG for DB MySQL Instances"
 }
 
-/* variable "vpn_sg_rules" {
+variable "vpn_sg_rules" {
   default = [
     {
         from_port = 943
@@ -45,4 +45,4 @@ variable "db_sg_description" {
         cidr_blocks = ["0.0.0.0/0"]
     }
   ]
-} */
+}
