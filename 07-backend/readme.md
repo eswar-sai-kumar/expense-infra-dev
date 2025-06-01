@@ -13,3 +13,6 @@ Why needed? Sometimes Terraform doesn’t automatically know the order of creati
 Use: To make a null_resource run again when something changes, like a file or variable.
 
 Why needed? null_resource doesn’t automatically know when to re-run, so we manually define what triggers it.
+
+
+![alt text](image.png)
