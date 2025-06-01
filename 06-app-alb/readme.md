@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 # How to create target groups, load balancer, auto scaling manually in AWS
 
 ### Create 2 EC2 instance (AMI: RHEL-9-devops-practice, instance_type: t2.micro, sg: allow_everything, give below given user data also)
