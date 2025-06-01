@@ -1,7 +1,6 @@
 
 
 #!/bin/bash
-set -euxo pipefail # Add this line!
 
 component=$1
 environment=$2
